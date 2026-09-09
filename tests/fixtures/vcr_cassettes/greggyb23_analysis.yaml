@@ -1,0 +1,1121 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/938248068674301952
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/21Py26EMAz8l5z3QAhlgZ9BTuJQa0OC8lhpVfXf64pCqdTjjMfz+BDwhAJJTGKQ
+        dwUGe9U4rV1nZOOattOtVVLKUYK4CRPjgzCLKVTvGSaEgvaENSUM5iKwbD3XzV5VFj1eIeXNw2sO
+        sCKXWBIuy0u3itNwBfKHjvKsYxGTA5/xJlYs8O1+nEMs5MhAoRjO+A2DpbCc8D0GPABX9z+hO5Gj
+        J0MFtP+l6rryS/qrO0huymEHXeIDT1Az34k3ilENbTc0/dDfO9XI8a0V+/mfvU9M54bd6fMLveqI
+        BJ8BAAA=
+    headers:
+      CF-RAY:
+      - 9f7a8f2a1ed91dec-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:21 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"b96e6fb86b6d524802e73f21227eb890"
+      x-request-id:
+      - 32fb3287bebedec345382c20e8b463bd
+      x-time:
+      - '1778088380551'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/draft/1265480918777200640
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA2xUyW7bMBD9FYNnAeW+6FYUyKktei8KgZZoRzAlqiTVNAjy7x1SUuoGPVmzvRm+
+        mecX1EdnsxtQS5SQWEmpiKas2fwhJtR+R8wQQjgWlDPNOJMaox8NGqK95G6EUkSoFFxjQ7RSimIs
+        OUZHQoiDi6h9QYQwbITiDAumuCRKYujabMWGEYqp1kIyqEetOfyCSIw5EYSakq83vxRKGaoJgBAp
+        OWrZ5leUwpjwi6nAFPyE1oCkTOLSmwgDQBQCW2cpDOFaMsKODnLzK22YUfBwwISnoRaAgAcA0RgL
+        oxjMwKGBav5HTysapBkFOiEJMwx1BZs3yDBd8KSWhQliRJkFvzbI25S7yaVkr+6NVY0VARKU1Bq6
+        SI3e5eVxctvqpOGMShh5z1jG/nastcaAMXiyd/a6undbU8JwThUzFPAnl+1gsy0rG1zq47jkMcyQ
+        j97K8/MCbVFZ8mzLBOiT8+NsP3yLIS0unr58/Hp6sHO26fn0EEI+W+9Pn2sx1KQ+xHG+HjD057k4
+        H8NTl52dugKZKjzQkpxNtTuch0CHfZRGd129jdWfM2CmMrb1y6PtUogZtbhBds1hsWtynZvt2RdW
+        3nmHnUiD/wmkbGM+ONZ7qDorQr+sXU0Gquslu/kSYu+6JaSxcNb5cRpzqrE5TEBQ9RZAUIQEiFJ6
+        2CAAcHj77OL+PLCj++Visr6LYZ23wetXAYUbSz7k1J3nerabMbhLbbhZt7tvoPmvEc/1pDcjrbC0
+        7uLd77uM7O6Mp1jTy35Ka/q6BbocYLKUobqcFIi8KoJseiFkF2wdbxcdq+LYpSlqC1kk0CBVZa83
+        mYCkS4+lLhHNF192fL+Pctfwf0G1MaSG8lqOpg/T4l0uZ7bfSJrtzaHXPwAAAP//AwCWxZoH6wQA
+        AA==
+    headers:
+      CF-RAY:
+      - 9f7a8f2b2f0bc63a-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:22 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=30, stale-while-revalidate=300, stale-if-error=600
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"fc10890db5d40fe9701ce1da8a0b23d8"
+      x-request-id:
+      - 8c5ec3cb95c272fd26177c2fb6bcc88a
+      x-time:
+      - '1778088364960'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/league/1265480917594427392
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3RWXY+cNhT9KyueNyk2MMC+Ne3uS9MoTVu1UlVZBgxjLWCEzeyOovz3Hn8wMJPt
+        QyZr+95zzz33+uKv0cgHET1EP4lejvyHz7PSk5jvfv3x090THw3X57snpUzF+/7uo+DdIqL7SBtu
+        Fg2vWg1TL4zdG4ThDTc8evga8cUoVqvRyHGx4GqEQa2mM2tnNbDe4TDZ4IjQjBwORRrntCiS5JAU
+        KWyfhQAL1gjegJaFiLHbcyO0Wd1f5DjCBoQN/nNgefQN5IRB3E5bIpW1t9yjh9j6YzWLSc0meiDp
+        ffTC5Qm+1dJ0wm7FMGqk5lUvGG8a7bxqPvFamjNTsJ1lI9zu6iobNsjRbRn+KneULdbMW0RUy2ix
+        kvtoFlrMJ4D3vXphI3dWUHM27EWIZ1C4j6aen1XbMi1Ew8x58lDrrhF8AFZxH50ERD4pSMJGmAoI
+        kN9H4zKsNoSCAZf9mXmymh3VMl+jrfCOu+6V8TnrpWKelpGDYOiNTlayhwqbkLpWMxj2okOo/DZU
+        w8+AytID8Wi9qp+ZbD0qhOO1geEVGauAPwdgdpG4Rr3ngEdvJWzUUpl28fVFNw5Sa6lsXzRyFrVh
+        cjxJ4+M4wVxrTip0xA3YOG9i+C346H29QYOpNhSLbtxdjTc5r3HVYt7Y1YveaOmjDWaL6RnMvBG7
+        XiIksDpDC29yJbfbaTlH1ZauQ9NDg2AW2tkh+q1JohR2jVvio620B/7K/NXTrhVD0lfnKKaHCdeQ
+        w4J3gg3c1Mcd+VmcpHjZ6laJsT66NnBGEE0LrtW4XbRLJ606hX4kt8rV6uR2rzvO326Ou5gQjAF+
+        wjBCPcel711rTHw8uzHhd/SRz/bKpLZBHRMMEBrTLFrXIW8E75YeUNj3oyMa296ucAEgIdsPHM1t
+        fuS9LUc3sDRmaRk9pHZdqXHRkKVmth+dycS1RocC8h0NLuhflsUTBHEGRoecYzueLj50go9zQc4G
+        aRzeu/6qt4UNn8QsQfjErl8nix1w50UfN9NLlPUUOFsEZ9s24QzxWowYmGxpbrhtu0HYv7J9CiRl
+        NA5ejWh3ISzXmJGVqlOErmbfR8Sqx9RfVdtFYAdUdE3hwtllwI1ZSSIajRldw23+lDCaB6utXC9z
+        2IKE+8LVw7QPsEtnpbvP4aowrsLZeroVwsJuUvNWBAx3cPYH6aVPQnd5uv0ze5a2+TaHrTEsP+9O
+        9pnN1SrJMnzXcbRgSQqNyfV2koH6u3SX53UDXsKstWuvm73+LlDOSBLuyGb/LXxlBqG1HS/+sZCQ
+        5BCnpKRZUsZxWtIiCnaY60eFz0q49VFB8oTX4pDEbVW1aU3iNqZpRZuEEFISfuOHMWlHOQuvoQ53
+        vjtXNLkxcyzKpKBpER+KQ54mMSkzemulWaXQDC3vtbjJA23I6+MgbIv7QXR1bMQrFnx6+1BaciQ/
+        5FkWkyxNijJYTPYt1NyIRfGuKjNSZGkOrtDtItaMD8tuFPpnyuqUIbeSFHme0zg+pO7hdfVgCxZ5
+        VqYpzZPSpj/Zca/QVjtTDx7eZ5PSMnyV/ol++wCXL5efv76sP3884uf3Pz8/fmFPHx//xuIX/Pv5
+        8Qm/Hz79/8+/6OoZo1f4NEgSp2lMKSV4V5YHaJBuBuszTu9Idvh+T7s1xot93L0NSShB6kVxa/YW
+        sFGG9+GN6p5k3/4DAAD//wMArmXr/nILAAA=
+    headers:
+      Age:
+      - '9136'
+      CF-RAY:
+      - 9f7a8f2c68a37515-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:22 GMT
+      ETag:
+      - W/"a8efc5ddba27753656382bc2d77c1a54"
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=86400, stale-while-revalidate=300, stale-if-error=600
+      cf-cache-status:
+      - HIT
+      x-request-id:
+      - f064de79bdc2323cc7e2c8be2354a1af
+      x-time:
+      - '1778088365149'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/draft/1265480918777200640/picks
+  response:
+    body:
+      string: !!binary |
+        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
+        vAEAAP//AwAGG0YxESwBAA==
+    headers:
+      Age:
+      - '9136'
+      CF-RAY:
+      - 9f7a8f2d68189258-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:22 GMT
+      ETag:
+      - W/"c3bfde454e651b984ca65edfef6adbea"
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=86400, stale-while-revalidate=300
+      cf-cache-status:
+      - HIT
+      x-request-id:
+      - 9e341079b58ad9ab5f7b1693bc4e914a
+      x-time:
+      - '1778088365936'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/391114052438343680
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/1VPW27DIBC8C9/5MNiOiE9Q9RLWBtbJNjwswJGiqnfPRo6J+4Xmwc7Mr4A7FEhi
+        ELKDZuo0GCX7Bu1JH5XSsgfslUGljTgIE+ONMIshLM4xTAgFbYVLShjMzmD59LjMdu+y6HAPKc8O
+        HmMAj1ziC8h9Y0IP6cGB/JLbrJTHcyximMBlPAiPBV4BmxxioYkMFIqhNpgxWAqXCq8x4Aa4vXvn
+        rkSOjgwVOLsPtXjPX9J/30YmvHDYRpd4wwqWzDrxTNGepJRd06uu1W3XHnUjVvk9+coTfz6T75jq
+        jPXY3xOuS9PtpQEAAA==
+    headers:
+      CF-RAY:
+      - 9f7a8f7ef8f1094d-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:35 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"fbff05b2b4d0ced0c8e29546258abd72"
+      x-request-id:
+      - e24e50af6d845e96747e21644f80cb4f
+      x-time:
+      - '1778088381546'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/1130957430537461760
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/1VQSY7DIBD8C+cc8II98TfmAVYDTdIKBsSS0SjK34fIscc51kJXFQ8Gd8gQ2cQa
+        oUdlWnGWquMI8ssMTctNL8wgWiMHdmLK+xthYpMr1lYYETLqHZYY0amDQdfTcwn66NJo8QgpBQu/
+        s4MFa4nvH2/xSiEQihqIC5DdrJRm6TObDNiEJ7ZghlfAJjufyZCCTN7tDQI6Te6yw6t3uIHa3r5z
+        VyJ5S4oySPtPlWWpT+KnbyMjXmrYRmd/wx2UVHXSr39tOn4WY99x0Y390IwDZ6v+3pw+N98x7jvW
+        a88/jrMqTaYBAAA=
+    headers:
+      CF-RAY:
+      - 9f7a8f7ffe029613-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:35 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"5d9cbe220ea337037c596dd835cb1104"
+      x-request-id:
+      - abe2a3a9ce9b4cf5cf177bee297d482c
+      x-time:
+      - '1778088382032'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/83276654403010560
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/2WPzW7EIAyE34VzD0ACu92XiQh4t1YAR/ysVFV991Kl0FQ9fuOxx/PBzNMUk9iN
+        SeUuXNyVdVZoLZ26zgLUK7dSTmJeLXthlmhDyOwWq/cNE5gCbmBNCaI9GVw7vdTdnV0OPJwR8+7N
+        +xJNgPZESDuljVoWBIO+uzAvK5VOAYr5Pt05UsE7WlOQ4sjeITqMj4FvFKFD+9v/JB5CJo8Wi1n9
+        r1RDaCvpr6+LCR4trMuFNhhQc5tjK8iuk7xoreaZT1xwpTk7pv+6PiGNAseZzy9y9OXzmQEAAA==
+    headers:
+      CF-RAY:
+      - 9f7a8f810a8223e7-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:35 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"ea2a8e2b8a8e446e346d93fb33d38069"
+      x-request-id:
+      - f1da6f3b020d428ba5f0d74fa5bc3f93
+      x-time:
+      - '1778088381703'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/1265657792811761664
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/1VPSW7EIBD8C+c5BM+Alw8kl3mD1Ya2jaYBi2WkKMrfQ+QxcY61dFfVF4MnJAhs
+        YIJfOzGBaJV+6/pG8llq7BXeuuvUtVyyC1PePwxGNrhMVGBASKgrzCGgUyeDLq/HvOmzSyPhGZq4
+        EXyODiyWEh9ItPrsdHy/l0C0YOiwmjhOPrFhBop4YRYT/AYcsvPJzEZBMt7VBhs6bdxS4eodHqC0
+        p1fuTkRPRpkEE/1R2dpyEv77DjLgUsIOOvkHVpBj0U2ZyXgjhRRt2zcd563kUt7Yrr82r3XzYovy
+        xFB37N++fwC/L8URpgEAAA==
+    headers:
+      CF-RAY:
+      - 9f7a8f820b632d72-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:35 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"70b40c0ba0c6f605583629f8abe3b9c1"
+      x-request-id:
+      - cf701a49b00fbedaf4c7ea35edb44a8a
+      x-time:
+      - '1778088380882'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/1266236057431592962
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/1WPzW7CMBCE32XPOZRQUpEz3HmDaLHXsMrajvyDVFW8O66C3fT4zcz+zA/gAxMG
+        GF0W6UB5PzPFhoEwkW6YQyCnNgFdhqe86G1Kk9AWOS6C35NDSzDC2ZgTXlDN0AFZZKk5jtPVJxgN
+        SqQOLCX83V5t5xMbVpjYu3Z+IafZ3RrevaMK5XV5H12F6IUVJ7zKn5StLSPhf66KgW7lWJWTn6lB
+        jsXn0hF2/TD0++Hj8PW53x2O/XHoYfXfhckYjcta+EGhlVhXPV+7+AFkggEAAA==
+    headers:
+      CF-RAY:
+      - 9f7a8f831e7864e3-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:36 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"ec75770970c8d6270877569eed6942f6"
+      x-request-id:
+      - 7fc6c96b136129efc3d5134d922a490d
+      x-time:
+      - '1778088380372'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/1266591486313512960
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/21PSY6DMBD8i885YAiO4TOosRvSihfkJVI0mr/HEYOHkeZYS1d1fTF4QoLARtbz
+        TvYz9DelGzm0gi9C46DwKrtZ3rhgF6a8fxBGNrpsTIEBIaGuMIeATp0MukRPedNnl0aDZ0hxM/Ca
+        HFgsT9zXAC6JRspShxbIHEaK0+wTGxcwES/MYoJP/CE7n2ghBYm8q/0bOk1urfDuHR6g/G5+Wnci
+        ekOKEszml8rWlpPw13eQAddSdtDJP7CCHItOZSTjrRD9wK9SdLzreTuIhu36f4ufGOqKPev7DYLm
+        fXeiAQAA
+    headers:
+      CF-RAY:
+      - 9f7a8f842b2344f1-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:36 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"7650028abdf449c3a23e2290ce97b486"
+      x-request-id:
+      - 9e074056f99afc3a369e32d8805fb141
+      x-time:
+      - '1778088380718'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/1266789397911572480
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/21QSW6EMBD8i89zAMMMhs+gxm5Ia7wgLyOhUf4eR8QOkXKs6nItfjN4QQTPJjbc
+        B87vjeTr0ohe9l2/ompQcM5HbEXHbkw69yQMbLJJ6ww9QkRVYfIerbwIVLae066uKoUar5DCruGY
+        LRjMJYKz9vC0heXIeWiAdFFSmBcX2bSCDnhjBiN8+5ezdZFWkhDJ2VpgR6vIbhV+OIsF5PL6J/Yk
+        gtMkKcKif6lkTH7i/+oK6XHLYYWO7okVpJDvlFeylj8egxi7cRjbNn9xLxp23v+d/EJfZ5xmn1+P
+        PEAxpAEAAA==
+    headers:
+      CF-RAY:
+      - 9f7a8f853d0120d3-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:36 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"80aae79667248ad81de9c4f5ffc38fcc"
+      x-request-id:
+      - 063fb79fd26fc8cc2dccd7d731301185
+      x-time:
+      - '1778088381216'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/391057800597356544
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/1VPy27DIBD8F8454BJsx+dem1+w1rCkq/CwAEeqqv57iRyoe5zHzux8M3hAhsgm
+        powRgxJjvxgwfAQxGNl35k0s2Bm9aHZiKoQ7YWKT36wtMCJk1A1uMaJXB4Mu0fO26qNLo8UjpLRa
+        +Jo9OCxPfEDK4Z1fSxk6IFttlOYlZDYZsAlPzGGGZ3iVfchkSEGm4Fv7il6TvzX4GTxWUD63r86d
+        SMGSogyL/aM258pJ/O+rZMRbKat0DndsYEtFpzKRiUvH5TByLi+DkL08n9kuv+a651zNfWEfGNuE
+        PejnFwjZsqSdAQAA
+    headers:
+      CF-RAY:
+      - 9f7a8f864a7853a9-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:36 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"f97ed4858d88e0ad0c32eda0f27d3e08"
+      x-request-id:
+      - 730ecb9ce881f0ca5d4bee13625b19c7
+      x-time:
+      - '1778088381053'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/938248068674301952
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/21Py26EMAz8l5z3QAhlgZ9BTuJQa0OC8lhpVfXf64pCqdTjjMfz+BDwhAJJTGKQ
+        dwUGe9U4rV1nZOOattOtVVLKUYK4CRPjgzCLKVTvGSaEgvaENSUM5iKwbD3XzV5VFj1eIeXNw2sO
+        sCKXWBIuy0u3itNwBfKHjvKsYxGTA5/xJlYs8O1+nEMs5MhAoRjO+A2DpbCc8D0GPABX9z+hO5Gj
+        J0MFtP+l6rryS/qrO0huymEHXeIDT1Az34k3ilENbTc0/dDfO9XI8a0V+/mfvU9M54bd6fMLveqI
+        BJ8BAAA=
+    headers:
+      Age:
+      - '14'
+      CF-RAY:
+      - 9f7a8f874d68ecd0-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:36 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - HIT
+      etag:
+      - W/"b96e6fb86b6d524802e73f21227eb890"
+      x-request-id:
+      - 32fb3287bebedec345382c20e8b463bd
+      x-time:
+      - '1778088380551'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/1265493120288563200
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/1WPwW7EIAxE/4XzHrJQEpJjf6LHyATv1gqBCMhWVdV/r6tsaHpBmvHg8fsS8IAC
+        SQzCdBas0rJXVmqj0RrTtxLarlfOda0TFzHFOBNmMYTNe5YJoaCrcksJw3QKOF49bqs7pxx6PEvK
+        q4fPMcCCfMQbefeKKWOa+eVKXID8EaY82ljEcAOf8SIWLPBbcYxDLHSjCQrFUG9YMTgK9yrfY8BD
+        8P3+2bwbOXqaqID1f9a2LPwl/c8dZsI7lx12iTNWsTHESAwqrrLVL726ykYao1slm0bs8yf1B1Pb
+        M/UDUyXZ933/ACYmohaqAQAA
+    headers:
+      CF-RAY:
+      - 9f7a8f8819a04275-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:36 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"a62320db463b6c7bc80ecefd1cca6013"
+      x-request-id:
+      - 2d7ed3c745b390e5b83e34ba4a73b00a
+      x-time:
+      - '1778088381866'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/1265495160041512960
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/1VPSY7DIBD8C+ccDGO8necfVhvaSSsYLJZIo1H+HkYOxHOspau6fhk8IIJnE9NC
+        oBT9wEHqHsZ2UcsqAPoG+3b4GgS7MOXcnTCwySZjMvQIEXWFyXu06mTQOXpOuz67NBo8Qwq7gZ/Z
+        wob5ie8UItmby2W4AZliozAvLrJpBRPwwjaM8BdeZOsiraQgkrO1fUeryV4rvDmLBeTPzbvzIIIz
+        pCjCYj5U2rZ84v/7CunxmssKHd0dK0gh65QnMi462Y6Sd03TcsnF2DXs0N979WfvA33dcCQ9X7S4
+        t5CeAQAA
+    headers:
+      CF-RAY:
+      - 9f7a8f892cd7e41b-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:37 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"cb19580784cb6f4ced0e3b032040852c"
+      x-request-id:
+      - 2c9bc715a64cd2f3e513cb1978c4da80
+      x-time:
+      - '1778088380186'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://api.sleeper.app/v1/user/1265722052657025024
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/1VPy26DMBD8lz3nABRDyrE/ghZ7SVesbeRHpLTqv9cRgdKTNQ/P7HwD3jFhgAGM
+        Uqae+6pXZLCq39vrW3011OLc1V1h4QLa+4UpwuCySIGBMJE5YA6BnD4ZTIke82rOLkNCZ8hxFXyM
+        Di2VIz4C6uWLRbDUkUWW3chxnHyCYUaJdAFLCZ/xu+x84pk1Jvbu6F/JGXa3A356Rzsot8urdSOi
+        F9accJI/KltbvoT/vp0MdCtlO538QgfIsehcRkLddKpvmko936pRVdPCpr8WT+fFdwrHii3r5xdk
+        h8o6ogEAAA==
+    headers:
+      CF-RAY:
+      - 9f7a8f8a58fb38c3-ATL
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 06 May 2026 19:58:37 GMT
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - etag,date
+      cache-control:
+      - public, s-maxage=120, stale-while-revalidate=600, stale-if-error=900
+      cf-cache-status:
+      - EXPIRED
+      etag:
+      - W/"576de1d5eb36798acee84de9ee3fb7e9"
+      x-request-id:
+      - 458135080c9b5936fd8df6be63407167
+      x-time:
+      - '1778088381377'
+    status:
+      code: 200
+      message: OK
+version: 1

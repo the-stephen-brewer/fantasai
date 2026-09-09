@@ -1,0 +1,62 @@
+name: Deploy React App to S3
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'react-app/**'  # Optional: Only run if files in react-app change
+      - '.github/workflows/deploy_fe.yml'
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  AWS_REGION: us-east-1
+  S3_BUCKET_NAME: fantasai
+  SOURCE_DIR: build/client  # <--- Note the updated path (react-app/dist)
+
+jobs:
+  deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    
+    # 1. Set the default directory for all 'run' steps in this job
+    defaults:
+      run:
+        working-directory: ./react-app
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        # This now runs inside ./react-app automatically due to defaults above
+        run: npm install
+
+      - name: Build Project
+        # This also runs inside ./react-app
+        run: npm run build
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Deploy to S3
+        # We need to sync the folder we built (react-app/dist) to the bucket root
+        # Note: 'defaults' doesn't apply to 'uses' or aws cli, but we manually point to the path
+        run: aws s3 sync ./${{ env.SOURCE_DIR }} s3://${{ env.S3_BUCKET_NAME }} --delete
+        # Note: The aws command runs from root, so we use the full path in SOURCE_DIR env var
+      - name: Invalidate CloudFront Cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "/*"
